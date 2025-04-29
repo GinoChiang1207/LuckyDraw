@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Token 2049 Lottery</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then(registration => {
+              console.log('ServiceWorker registration successful');
+            })
+            .catch(err => {
+              console.log('ServiceWorker registration failed: ', err);
+            });
+        });
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-48c94111.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/react-vendor-b739a86f.js">
+    <link rel="modulepreload" crossorigin href="./assets/framer-motion-13922846.js">
+    <link rel="stylesheet" href="./assets/index-78319d11.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+  </body>
+</html> 
